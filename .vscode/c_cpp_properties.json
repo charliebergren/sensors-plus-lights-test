@@ -3,9 +3,9 @@
     "configurations": [
         {
             "name": "Linux",
-            "compilerPath": "",
+            "compilerPath": "/usr/bin/avr-g++",
             "compilerArgs": [],
-            "intelliSenseMode": "linux-clang-x64",
+            "intelliSenseMode": "gcc-x64",
             "includePath": [
                 "${workspaceFolder}/**",
                 "/home/cberg/.arduino15/packages/adafruit/tools/CMSIS/5.7.0/CMSIS/Core/Include/",
@@ -54,7 +54,7 @@
         },
         {
             "name": "Arduino",
-            "compilerPath": "/home/cberg/Downloads/arduino-1.8.19-linux64/arduino-1.8.19/hardware/tools/avr/bin",
+            "compilerPath": "/home/cberg/.arduino15/packages/adafruit/tools/arm-none-eabi-gcc/9-2019q4/bin/arm-none-eabi-g++",
             "compilerArgs": [
                 "-mcpu=cortex-m4",
                 "-mthumb",
